@@ -1,4 +1,4 @@
-import heroImg from "@/assets/hero-trainer.jpg";
+import heroImg from "@/assets/hero-frente.png";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, MapPin } from "lucide-react";
 
@@ -8,9 +8,9 @@ const Hero = () => {
       <img
         src={heroImg}
         alt="Luis Phillipe — Personal Trainer"
-        className="absolute inset-0 w-full h-full object-cover object-[70%_top] md:object-cover md:scale-85 origin-center"
-        width={1080}
-        height={1920}
+        className="absolute inset-0 w-full h-full object-cover object-[center_top]"
+        width={1086}
+        height={1448}
       />
       <div className="absolute inset-0 gradient-hero" />
       <div className="absolute inset-0 bg-background/40 md:bg-background/20" />
@@ -47,7 +47,7 @@ const Hero = () => {
 
           <div className="mt-8 flex items-center gap-2 text-sm text-muted-foreground">
             <MapPin className="w-4 h-4 text-gold" />
-            Atendimento em Cubatão/SP
+            Atendimento em Cubatão e Região
           </div>
         </div>
       </div>

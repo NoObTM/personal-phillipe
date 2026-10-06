@@ -1,5 +1,5 @@
 import { Flame } from "lucide-react";
-import logo from "@/assets/logo.jpeg";
+import logo from "@/assets/logo-novo.jpeg";
 
 const Footer = () => (
   <footer className="border-t border-border py-8 bg-background">
